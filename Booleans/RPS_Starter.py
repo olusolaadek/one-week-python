@@ -1,6 +1,6 @@
 from random import randint
 from unittest import result
-
+# https://plum-poppy-0ea.notion.site/Rock-Paper-Scissors-Exercise-a695ef1e479e458a840d695130df8cd1
 rock = """
     _______
 ---'   ____)
