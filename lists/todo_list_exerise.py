@@ -51,7 +51,7 @@ while r != 'q' and r != 'quit':
     if r.isnumeric():
         r_int = int(r)
 
-        if r_int > len(todos):
+        if r_int >= len(todos):
             print("The todo you selected does not exists! Choose another one.")
             display_todos(todos)
             continue
