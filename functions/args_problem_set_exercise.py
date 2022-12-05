@@ -38,11 +38,11 @@ def count_fails(*args):
 
 
 def get_top_students(**args):
-    students = []
+    top_students = []
     for k, v in args.items():
         if v >= 90:
-            students.append(k)
-    return students
+            top_students.append(k)
+    return top_students
 
 
 # -> ['tim', 'carlos']
